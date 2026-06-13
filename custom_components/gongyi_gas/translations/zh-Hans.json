@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "巩义燃气",
+        "description": "输入微信 openid 和燃气户主姓名",
+        "data": {
+          "openid": "微信 OpenID",
+          "user_name": "户主姓名",
+          "device_name": "设备名称"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "查询失败，请检查 openid 和姓名"
+    },
+    "abort": {
+      "already_configured": "该配置已存在"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": { "name": "燃气余额" },
+      "yesterday_usage": { "name": "昨日用气量" },
+      "yesterday_fee": { "name": "昨日燃气费" },
+      "update_time": { "name": "更新时间" },
+      "meter_number": { "name": "燃气表号" },
+      "address": { "name": "地址" }
+    }
+  }
+}

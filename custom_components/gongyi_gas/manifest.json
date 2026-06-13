@@ -1,0 +1,12 @@
+{
+  "domain": "gongyi_gas",
+  "name": "巩义燃气",
+  "version": "1.0.0",
+  "requirements": ["pycryptodome"],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "integration_type": "device",
+  "documentation": "https://github.com/your/ha-gongyi-gas",
+  "issue_tracker": "https://github.com/your/ha-gongyi-gas/issues"
+}
