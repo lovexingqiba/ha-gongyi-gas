@@ -29,7 +29,7 @@ git clone https://github.com/your/ha-gongyi-gas.git gongyi_gas
 
 ## 配置
 
-需要输入微信 OpenID 和燃气户主姓名（如「王江飞」）。
+需要输入微信 OpenID 和燃气户主姓名（如「王二小」）。
 
 ## 实体
 
